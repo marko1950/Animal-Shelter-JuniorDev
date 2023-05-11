@@ -1,0 +1,187 @@
+{
+  "animals": [
+    {
+      "id": 4,
+      "name": "Maxi",
+      "type": "Dog",
+      "breed": "German Shepherd",
+      "old": 2,
+      "status": "Not adopted",
+      "image": "https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg",
+      "description": "Dobar pas."
+    },
+    {
+      "name": "Micek",
+      "type": "Cat",
+      "breed": "House cat",
+      "old": "2",
+      "status": "Not adopted",
+      "image": "https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg",
+      "description": "Slatka i umiljata.",
+      "id": 7
+    },
+    {
+      "name": "Ivka",
+      "type": "Cat",
+      "breed": "Shorthaired",
+      "old": "2",
+      "status": "Not adopted",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/American_Shorthair.jpg",
+      "description": "Opasna i ludasta.",
+      "id": 8
+    },
+    {
+      "name": "Donnie",
+      "type": "Dog",
+      "breed": "Cocker Spaniel",
+      "old": "6",
+      "status": "Not adopted",
+      "image": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Spaniel%20%28Cocker%291.jpg?h=ccdd1b23&itok=rtpOkLHY",
+      "description": "Brz i neustrašitv.",
+      "id": 9
+    }
+  ],
+  "news": [
+    {
+      "title": "Shelter Party",
+      "text": "Come today for a party!",
+      "important": false,
+      "date": "02. 02. 2023.",
+      "id": 1
+    },
+    {
+      "title": "Need dog food",
+      "text": "Please donate some dog food.",
+      "important": true,
+      "date": "03. 01. 2023.",
+      "id": 2
+    },
+    {
+      "title": "Shelter Renovation",
+      "text": "Shelter renovations are almost done thanks to our volunteers!",
+      "important": false,
+      "date": "12. 02. 2023.",
+      "id": 3
+    },
+    {
+      "title": "New animals",
+      "text": "We have recieved 3 new kittens at shelter. ",
+      "important": false,
+      "date": "10. 05. 2023.",
+      "id": 4
+    },
+    {
+      "title": "Need cat food",
+      "text": "Please donate some cat food, we got new kittens. Their names are Kiti, Kat and Mars.",
+      "important": true,
+      "date": "10. 05. 2023.",
+      "id": 6
+    },
+    {
+      "title": "Shelter Repairs",
+      "text": "Need to repair some dog houses. If you know someone willing to volunteer, give us a call.",
+      "important": false,
+      "date": "03. 04. 2023.",
+      "id": 7
+    },
+    {
+      "title": "Need volontuers",
+      "text": "Hi, we need  new volunteers. Give us a call.",
+      "important": false,
+      "date": "11. 05. 2023.",
+      "id": 8
+    }
+  ],
+  "donations-needed": [
+    {
+      "id": 5812299,
+      "type": "Watter",
+      "value": "10",
+      "description": "Watter for animals"
+    },
+    {
+      "id": 5300501,
+      "type": "Money",
+      "value": "50",
+      "description": ""
+    },
+    {
+      "type": "Food",
+      "value": "10",
+      "description": "Food for kittens",
+      "id": 5812300
+    }
+  ],
+  "donations-given": [
+    {
+      "id": 214,
+      "type": "Football",
+      "value": "4",
+      "description": "Dog's toy"
+    },
+    {
+      "id": 324324,
+      "type": "Food",
+      "value": "30",
+      "description": "Food for dogs"
+    },
+    {
+      "id": 12314,
+      "type": "Money",
+      "value": "200",
+      "description": ""
+    }
+  ],
+  "donations-completed": [
+    {
+      "id": 2,
+      "type": "Money",
+      "value": "500",
+      "description": ""
+    },
+    {
+      "id": 5537602,
+      "type": "Food",
+      "value": "50",
+      "description": "Food for dogs"
+    },
+    {
+      "id": 70028,
+      "type": "Toys",
+      "value": "2",
+      "description": "Toys for kittens"
+    },
+    {
+      "type": "Medicine",
+      "value": "100",
+      "description": "Medicine for animals",
+      "id": 5179111
+    }
+  ],
+  "contactMessage": [
+    {
+      "name": "Marko Kusacic",
+      "email": "markokusacic1911@gmail.com",
+      "message": "Dobra stranica",
+      "id": 1
+    },
+    {
+      "name": "Marko Kusacic",
+      "email": "markokusacic1911@gmail.com",
+      "message": "Dobra stranica",
+      "id": 2
+    },
+    {
+      "name": "Bravo",
+      "email": "bravo123@gmail.com",
+      "message": "bravo123456",
+      "id": 3
+    },
+    {
+      "name": "Mate Miso Kovac",
+      "email": "matemiso123@gmail.com",
+      "message": "Poljubi zemlju",
+      "id": 4
+    }
+  ]
+}

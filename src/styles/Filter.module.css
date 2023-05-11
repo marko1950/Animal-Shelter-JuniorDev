@@ -1,0 +1,27 @@
+.filter_wrapper {
+  height: 20%;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  /* border-bottom: rgba(152, 12, 239, 0.349) 2px dashed; */
+  margin-top: 3%;
+  padding: 0 15%;
+}
+
+.radio_wrapper {
+  display: flex;
+}
+
+.filterOptions {
+  margin: 0 10px;
+}
+
+.filter_div {
+  display: flex;
+}
+
+.filter_input {
+  margin-right: 5px;
+}

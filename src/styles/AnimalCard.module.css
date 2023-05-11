@@ -1,0 +1,323 @@
+.animalCard {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  border: 3px solid black;
+  /* padding: 3%; */
+  width: 400px;
+  height: 300px;
+  border-radius: 2%;
+  background-image: url("../assets/paws_pattern.jpg");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 400px 400px;
+}
+.animal_description_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 3%;
+  max-height: 70%;
+  padding-top: 2%;
+}
+.animal_table {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  margin-bottom: 3%;
+}
+.animal_description p {
+  margin: 2%;
+}
+
+.animal_text {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.text_area {
+  width: 250px;
+  resize: none;
+}
+/* textarea {
+  width: 250px;
+  resize: none;
+} */
+.animal_image {
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+  border: 3px solid black;
+  overflow: hidden;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description p {
+  margin: 3px;
+}
+.adoptbuttons_div {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.adoptbuttons_div p {
+  margin-bottom: 0;
+}
+
+.list_header {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.list_opening_paragraph {
+  margin: 3% 5%;
+  text-align: center;
+  font-size: large;
+}
+
+.animal_description_input_div {
+  display: flex;
+  margin: 2%;
+}
+
+.animal_description_input_div input {
+  width: 70%;
+}
+
+.animal_image_div {
+  margin-left: 2%;
+}
+
+.new_animal_div_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2% 10%;
+}
+
+.imageURL_p {
+  background-color: white;
+}
+
+.style.newadoptbuttons_div {
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+}
+
+.new_animal_save_button {
+  margin-left: 10%;
+}
+
+.new_animal_save_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 10px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #1ed75ff5;
+  height: 38px;
+  margin: 2%;
+}
+
+.new_animal_save_button:hover {
+  transform: scale(1.04);
+  background-color: #3eb769;
+}
+
+.noAnimals_div {
+  display: flex;
+  justify-content: center;
+}
+
+.noAnimals_h3 {
+  margin-top: 10%;
+}
+
+.list_heading {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.animal_card_adopt_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 10px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #1ed75ff5;
+  height: 38px;
+}
+
+.animal_card_adopt_button:hover {
+  transform: scale(1.04);
+  background-color: #3eb769;
+}
+
+.animal_card_2buttons_div {
+  display: flex;
+}
+
+.animal_card_save_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 10px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #1eacd7dd;
+  height: 38px;
+  margin-right: 2%;
+}
+
+.animal_card_save_button:hover {
+  transform: scale(1.04);
+  background-color: #2691c3;
+}
+
+.animal_card_remove_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 10px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #d7401eeb;
+  height: 38px;
+  margin-right: 2%;
+}
+
+.animal_card_remove_button:hover {
+  transform: scale(1.04);
+  background-color: #c32e26;
+}
+
+.animal_card_edit_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 10px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #ea4e0bf7;
+  height: 38px;
+  margin-right: 2%;
+}
+
+.animal_card_edit_button:hover {
+  transform: scale(1.04);
+  background-color: #ff5e00;
+}
+
+.adopted_p {
+  font-size: large;
+  color: green;
+}
+
+.not_adopted_p {
+  font-size: large;
+  color: #c32e26;
+}
+
+.animal_description_div_wrapper {
+  width: 50%;
+}
+
+.new_animal_imgURL_input {
+  height: 80%;
+}
+
+.newAnimal_input,
+.text_area,
+.new_animal_imgURL_input,
+.selectInput {
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.newAnimal_input:focus,
+.text_area:focus,
+.new_animal_imgURL_input:focus,
+.selectInput:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.3);
+}
+
+.new_animal_question_wrapper p {
+  font-size: large;
+  margin-top: 2%;
+}

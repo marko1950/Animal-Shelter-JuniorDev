@@ -1,0 +1,146 @@
+.mission_div {
+  width: 66%;
+  padding-right: 6%;
+}
+.mission_div h1 {
+  margin-bottom: 5%;
+}
+
+.mission_div {
+  font-size: large;
+}
+.mission {
+  display: flex;
+  margin-top: 8%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+}
+.happyDog_div {
+  width: 33%;
+}
+
+.happyDog_image {
+  width: 90%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20%;
+  border-radius: 2%;
+}
+
+.services_div {
+  margin-top: 10%;
+}
+
+q::before,
+q::after {
+  animation: dancing 1s linear infinite;
+  display: inline-block;
+  transform: rotate(13deg);
+}
+
+@keyframes dancing {
+  0% {
+    transform: rotate(13deg) scale(2);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-13deg) scale(2);
+  }
+
+  75% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(13deg) scale(2);
+  }
+}
+q {
+  quotes: "“" "”" "“" "”";
+}
+
+blockquote {
+  font-size: 20px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.quote_div {
+  margin-top: 8%;
+}
+
+.map_div {
+  margin-top: 15%;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.contactForm_label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.contactForm_button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contactForm_button:hover {
+  background-color: #0061cc;
+}
+
+.contactForm_input,
+.contactForm_textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.contactForm_input:focus,
+.contactForm_textarea:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.3);
+}
+.landing_form_section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.form_div_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0;
+}
+
+.form_question_div img {
+  width: 280px;
+}
+
+.form_question_div {
+  margin-top: 1%;
+}
+
+.form_question_div p {
+  font-size: large;
+}

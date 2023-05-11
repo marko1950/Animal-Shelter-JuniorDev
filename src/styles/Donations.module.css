@@ -1,0 +1,208 @@
+.new_donation_div {
+  border: 3px solid black;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 8%;
+  background-image: url("../assets/donations_background.png");
+  background-repeat: no-repeat;
+  background-size: 780px 400px;
+  background-position: center;
+  border-radius: 2%;
+}
+
+.new_donation_title {
+  display: flex;
+  margin: 0 2%;
+}
+
+.new_donation_title input {
+  width: 55%;
+}
+.new_donation_title p {
+  margin-right: 3.5%;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.donations_table p {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 60px;
+  margin: 0;
+  padding: 1%;
+}
+.new_donation_text {
+  display: flex;
+  margin: 0 2%;
+}
+.new_donation_text p {
+  margin-right: 4%;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+.new_donation_text textarea {
+  width: 60%;
+
+  resize: none;
+}
+.new_donation_buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.new_donation_checkbox_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_donation_checkbox_div p {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: rgb(223, 44, 205);
+}
+
+.donation_submit_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 17px 48px;
+  color: #fff;
+  background-color: #1ed75f8a;
+  height: 48px;
+}
+
+.donation_submit_button:hover {
+  transform: scale(1.04);
+  background-color: #3eb769;
+}
+.donation_row {
+  text-align: center;
+}
+.donation_table_div {
+  margin: 0 10%;
+  background-image: url("../assets/donations_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px black dashed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1%;
+}
+.donations_table_header {
+  margin: 2% 0 2% 10%;
+}
+.donations_section {
+  margin: 2%;
+}
+
+.donations_thead {
+  border-bottom: 2px dashed #02c66f;
+}
+
+.newDonations_header_div {
+  margin: 2%;
+  display: flex;
+  justify-content: space-;
+}
+
+.newDonations_header {
+  padding: 2% 5%;
+}
+
+.newDonations_header p {
+  font-size: large;
+  margin-top: 2%;
+}
+.newDonations_form_wrapper {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.donation_submit_button_div {
+  text-align: center;
+}
+
+.donation_accept_donation_button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 10px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 100px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #1ed75f8a;
+  height: 38px;
+  margin: 2%;
+}
+
+.donation_accept_donation_button:hover {
+  transform: scale(1.04);
+  background-color: #3eb769;
+}
+
+.donation_deleteButton {
+  border: 2px solid #f44336;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10%;
+  font-weight: 600;
+  background-color: #f44336;
+  color: white;
+}
+
+.donation_deleteButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.newdonations_input,
+.newdonations_textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.newdonations_input:focus,
+.newdonations_textarea:focus {
+  outline: none;
+  border-color: #0077ff;
+  box-shadow: 0 0 0 2px rgba(0, 119, 255, 0.3);
+}
